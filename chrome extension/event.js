@@ -15,7 +15,7 @@ function doSearch(selectedText) {
 chrome.contextMenus.create({
 	id: "doSearch",
 	title: "Search Dictionary.ge for \"%s\"",
-	contexts: ["selection", "link"]
+	contexts: ["selection"]
 });
 
 chrome.contextMenus.onClicked.addListener(function(eventData){
