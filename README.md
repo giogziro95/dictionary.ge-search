@@ -14,4 +14,4 @@ Searches for selected text on Dictionary.ge.
 0. Go to a web page.
 1. Select the text you want to search for.
 2. Right click the selection.
-3. Click the _Search Dictionary.ge for "<text>"_ menu item.
+3. Click the _Search Dictionary.ge for "\<selected text\>"_ menu item.
