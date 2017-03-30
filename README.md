@@ -10,7 +10,7 @@ Searches for selected text on Dictionary.ge.
 3. Click the _Load unpacked extension..._ button.
 4. Select the folder of the extension which you have extracted from the archive and click _OK_.
 
-# Using extension
+### Using extension
 0. Go to a web page.
 1. Select the text you want to search for.
 2. Right click the selection.
