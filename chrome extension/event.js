@@ -3,8 +3,8 @@ function doSearch(selectedText) {
 	chrome.tabs.query({
 		active: true,
 		lastFocusedWindow: true
-	}, function(tabs) {
-		var tab = tabs[0];
+	}, function(tabArray) {
+		var tab = tabArray[0];
 		chrome.tabs.create({
 			url: url,
 			index: tab.index + 1
